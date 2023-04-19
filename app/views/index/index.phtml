@@ -1,0 +1,19 @@
+<div class="container-fluid px-4">
+ <h1 class="mt-4">Página Inicial</h1>
+ <ol class="breadcrumb mb-4">
+ <li class="breadcrumb-item active">Dashboard</li>
+</ol>
+
+<!----TODO O CONTEUDO DA PÁGINA--->
+<p>Controlador em ação: IndexController</p>
+<p>Pagina carregada: Index</p>
+<p><b>Simulando dados do banco</b></p>
+
+<?php
+    foreach($this->view->dados as $indice => $valor){
+        echo $valor . "<br>";
+    }
+
+    ?>
+    <!---FIM DO CONTEUDO DA PAGINA -->
+</div>  
