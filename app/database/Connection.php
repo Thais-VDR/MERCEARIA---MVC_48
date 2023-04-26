@@ -16,9 +16,9 @@ use PDOException;
 
             #Informaçoes sobre o banco de dados
             $host    =    "localhost";
-            $db_name =    "mvc_48";
+            $db_name =    "meuEmprego_m48";
             $user    =    "root";
-            $pass    =    "";
+            $pass    =    "sucesso";
             $port    =    3306;
             $charset =    "utf8";
             $db_driver =  "mysql";
